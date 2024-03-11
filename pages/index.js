@@ -5,6 +5,7 @@ import ContactSection from '../components/contact';
 import AboutSection from '../components/about';
 import HomeSection from '../components/home';
 import ScrollToTopButton from '../components/top';
+import ThemeChanger from '../components/darkswitch';
 
 export default function Home() {
   return (
@@ -20,10 +21,11 @@ export default function Home() {
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <ThemeChanger />
           </ul>
         </nav>
       </header>
-      <section className="container bg-white mx-auto my-6 p-6 shadow-md flex items-center">
+      <section className="container bg-white mx-auto my-6 p-6 shadow-md flex items-center ">
         <div className="flex-1">
           <p className="text-lg">This is a simple example of using Tailwind CSS with HTML. Get started by customizing this page!</p>
           <p className="text-lg mt-4">More ...</p>
@@ -36,7 +38,7 @@ export default function Home() {
       <AboutSection />
       <ContactSection />
       <ScrollToTopButton />
-      <footer className="bg-gray-200 p-2 text-center">
+      <footer className="bg-gray-200 dark:bg-gray-800 p-2 text-center">
         <p>&copy; 2024 Tailwind CSS Example</p>
       </footer>
     </div>
