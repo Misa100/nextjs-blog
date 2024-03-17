@@ -5,7 +5,7 @@ import ContactSection from '../components/contact';
 import AboutSection from '../components/about';
 import HomeSection from '../components/home';
 import ScrollToTopButton from '../components/top';
-import ThemeChanger from '../components/DarkSwitch';
+import ThemeChanger from '../components/darkswitch';
 
 export default function Home() {
   return (
