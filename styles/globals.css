@@ -6,14 +6,3 @@ body {
      background-color: white;
      color: black;
    }
-   
-   .dark body {
-     background-color: #1a202c;
-     color: white;
-   }
-
-   .dark body .container {
-     background-color: #2D3748;
-     color: white;
-   }
-   

@@ -2,32 +2,32 @@ import { FaMapMarkerAlt, FaPhone, FaPaperPlane, FaGlobe } from 'react-icons/fa';
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="container bg-white mx-auto my-6 p-6 shadow-md">
-      <div className="bg-gray-100 py-6 dark:bg-gray-800 ">
-        <div className="max-w-screen-md mx-auto px-4 dark:bg-gray-800 ">
-          <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8 dark:text-white">Contact Us</h2>
-          <div className="flex justify-between">
-            <div className="w-full space-y-6 bg-gray-200 p-8 shadow-md">
-              <h1 className="mb-3 text-lg font-semibold text-gray-600">Send us a message</h1>
+    <section id="contact" className="bg-gray-100 mx-auto p-6 dark:bg-[#1a202c]">
+      <div className="bg-gray-100 py-6 dark:bg-[#1a202c]">
+        <div className="max-w-screen-md mx-auto px-4 md:px-0">
+          <h2 className="text-3xl font-semibold text-center text-gray-800 mb-8 dark:text-gray-100">Contact Us</h2>
+          <div className="flex flex-col md:flex-row justify-between space-y-6 md:space-y-0">
+            <div className="w-full md:w-1/2 space-y-6 bg-gray-200 p-8 dark:bg-gray-800">
+              <h1 className="mb-3 text-lg font-semibold text-gray-600 dark:text-gray-100">Send us a message</h1>
               <form className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="text-sm font-medium text-gray-700">Name</label>
-                  <input type="text" id="name" name="name" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-white" required />
+                  <label htmlFor="name" className="text-sm font-medium text-gray-700 dark:text-gray-100">Name</label>
+                  <input type="text" id="name" name="name" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-[#d1cece]" required />
                 </div>
                 <div>
-                  <label htmlFor="email" className="text-sm font-medium text-gray-700">Email</label>
-                  <input type="email" id="email" name="email" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-white" required />
+                  <label htmlFor="email" className="text-sm font-medium text-gray-700 dark:text-gray-100">Email</label>
+                  <input type="email" id="email" name="email" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-[#d1cece]" required />
                 </div>
                 <div>
-                  <label htmlFor="message" className="text-sm font-medium text-gray-700">Messages</label>
-                  <textarea id="message" name="message" rows="4" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-white" required></textarea>
+                  <label htmlFor="message" className="text-sm font-medium text-gray-700 dark:text-gray-100">Messages</label>
+                  <textarea id="message" name="message" rows="4" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-[#d1cece]" required></textarea>
                 </div>
                 <div>
                   <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[#10B981] hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit</button>
                 </div>
               </form>
             </div>
-            <div className="w-full space-y-6 bg-white p-8 shadow-md dark:bg-gray-300">
+            <div className="w-full md:w-1/2 space-y-6 bg-gray-300 p-8">
               <h2 className="text-lg font-semibold dark:text-gray-800">Contact Information</h2>
               <hr />
               <p className="mb-4 dark:text-gray-800">We are open for any suggestion or just to have a chat</p>
