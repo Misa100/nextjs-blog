@@ -9,7 +9,7 @@ export default function HomeSection() {
           </h1>
           <p className="mb-8 leading-relaxed dark:text-gray-100">Elevate your visibility on the internet with our cutting-edge web writing and SEO solutions. Tailored to meet your unique needs, our personalized approach ensures maximum impact. Let us help you connect effectively with your audience.</p>
           <div className="flex justify-center">
-            <a href="#about" className="inline-flex text-white bg-[#10B981] border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Discover Our Services</a>
+            <a href="#about" className="inline-flex text-white bg-[#10B981] border-0 py-2 px-6 focus:outline-none hover:bg-[#0f8157] rounded text-lg">Discover Our Services</a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
