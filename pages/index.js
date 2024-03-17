@@ -33,7 +33,7 @@ export default function Home() {
             </p>
             <a href="#home" className="bg-[#10B981] text-white px-6 py-3 rounded-lg shadow hover:bg-[#0f8157] transition-all md:mt-3">Get Started</a>
         </div>
-        <div className="md:w-1/2 mt-6 md:mt-0">
+        <div className="md:w-1/2 md:mt-0 ms-5 mt-5">
           <Image src="/5.jpg" alt="Blog Example" width={700} height={465} layout="responsive" className="rounded-lg shadow-xl" />
         </div>
       </section>
