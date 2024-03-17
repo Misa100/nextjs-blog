@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <header className="bg-[#10B981] p-4 flex justify-between items-center flex-wrap">
         <h1 className="text-2xl md:text-3xl font-semibold dark:text-white">Welcome to Tailwind</h1>
-        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-white">
+        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-black dark:text-white">
           Menu
         </button>
         <nav className={`${isMenuOpen ? 'block' : 'hidden'} md:block`}>
