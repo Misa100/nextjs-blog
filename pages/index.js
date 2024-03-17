@@ -37,7 +37,7 @@ export default function Home() {
           </h1>
           <p className="mb-8 leading-relaxed dark:text-gray-100">Discover the perfect blend of design flexibility and development efficiency with Next.js and Tailwind CSS. Create responsive, visually appealing blogs with ease, and take your online presence to the next level.</p>
           <div className="flex justify-center">
-            <a href="#about" className="inline-flex text-white bg-[#10B981] border-0 py-2 px-6 focus:outline-none hover:bg-[#0f8157] rounded text-lg">Discover Our Services</a>
+            <a href="#about" className="inline-flex text-white bg-[#10B981] border-0 py-2 px-6 focus:outline-none hover:bg-[#0f8157] rounded text-lg">Get Started</a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
