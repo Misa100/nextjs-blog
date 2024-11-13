@@ -82,15 +82,15 @@ export default function Home() {
     </header>
       <section id="home" className="bg-gray-200 mx-auto p-6 dark:bg-[#3f4a61]">
         <div className="mx-auto flex px-5 lg:py-16 xl:py-32 3xl:py-40 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font 3xl:text-5xl 4xl:py-6 4xl:mb-2 text-3xl mb-4 font-medium text-gray-900 dark:text-gray-100">Upgrade Your Blogging Experience
+          <div className="4xl:mb-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font 3xl:text-5xl 4xl:py-6 4xl:mt-4 4xl:mb-2 text-3xl mb-4 font-medium text-gray-900 dark:text-gray-100">Upgrade Your Blogging Experience
             </h1>
             <p className="3xl:text-2xl 3xl:mt-4 mb-8 leading-relaxed dark:text-gray-300 text-justify 4xl:text-center">Discover the perfect blend of design flexibility and development efficiency with Next.js and Tailwind CSS. Create responsive, visually appealing blogs with ease, and take your online presence to the next level.</p>
             <div className="flex justify-center">
               <a href="#about" className="inline-flex text-white bg-[#10B981] border-0 py-2 px-6 focus:outline-none hover:bg-[#0f8157] rounded text-lg">Get Started</a>
             </div>
           </div>
-          <div className="w-1/2 4xl:w-full 4xl:mb-20">
+          <div className="w-1/2 4xl:w-full 4xl:mb-10">
             <Image alt=""src="/5.jpg"
               width={900}
               height={900}
