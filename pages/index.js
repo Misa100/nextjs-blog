@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Desktop Menu */}
       <nav className="hidden md:block">
-        <ul className="flex flex-col lg:px-3 md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+        <ul className="flex flex-col lg:px-3 md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4">
           <li><a href="#home" className="text-sm md:text-base dark:text-white">Home</a></li>
           <li><a href="#about" className="text-sm md:text-base dark:text-white">About</a></li>
           <li><a href="#contact" className="text-sm md:text-base dark:text-white">Contact</a></li>
